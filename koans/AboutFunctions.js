@@ -4,7 +4,7 @@ describe("About Functions", function() {
 
     function add(a, b) {
       return a + b;
-    }
+    };
 
     expect(add(1, 2)).toBe(FILL_ME_IN);
   });
@@ -14,12 +14,12 @@ describe("About Functions", function() {
 
     function getMessage() {
       return message;
-    }
+    };
 
     function overrideMessage() {
       var message = "Inner";
       return message;
-    }
+    };
 
     expect(getMessage()).toBe(FILL_ME_IN);
     expect(overrideMessage()).toBe(FILL_ME_IN);
